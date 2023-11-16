@@ -42,7 +42,7 @@ class TigerCenterClass {
                 "chromedriver",
                 ChromeDriver::new),
         FIREFOX("webdriver.gecko.driver",
-                "geckodriver",
+                "src/main/geckodriver",
                 FirefoxDriver::new);
 
         private final String driverPropertyKey;
