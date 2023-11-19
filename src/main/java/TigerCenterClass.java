@@ -75,6 +75,16 @@ class TigerCenterClass {
         searchAndPrintClassDetails("SWEN 352");
     }
 
+    @Test
+    public void testClassSearchPSYC410() throws Exception {
+        searchAndPrintClassDetails("PSYC 410");
+    }
+
+    @Test
+    public void testClassSearchCCER601() throws Exception {
+        searchAndPrintClassDetails("CCER 601");
+    }
+
 
     private enum Browser {
         CHROME("webdriver.chrome.driver",
